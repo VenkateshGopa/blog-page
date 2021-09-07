@@ -2,31 +2,48 @@ body{
     background-color:bisque;
 }
 div a{
-    color:blac;
-    padding: 7px;
+    color:black;
+    padding: 9px;
     display: block;
     text-decoration: none;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin: 5px;
+    border-radius: 15px;
 }
 div h1{
     color: orange;
 }
 a:hover{
-    background-color: orange;
+    background: orange;
     color: white;
     border-radius: 15px;
     cursor: pointer;
 }
 #le{
-    width: 10%;
+    width: 13%;
     height: 100%;
     float: left;
 }
 #re{
-    margin-left: 10%; 
+    margin-left: 14%; 
     height: 100px;
     margin-right: 15%;
     color:black;
 }
-i{
-    color:black;
+.gg-home{
+    color: black;
+    float: left;
+}
+.gg-phone{
+    color: black;
+    float: left;
+}
+.gg-pen{
+    color: black;
+    float: left;
+}
+.gg-database{
+    color: black;
+    float: left;
 }
